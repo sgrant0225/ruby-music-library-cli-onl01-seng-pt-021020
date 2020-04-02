@@ -9,6 +9,8 @@ def initialize(path)
  end
  
  def files
-  Dir.entries(@path)
+  Dir.entries(@path).select! do |file| 
+    file.end_with?(".mp3") 
+  end
  end
 end
