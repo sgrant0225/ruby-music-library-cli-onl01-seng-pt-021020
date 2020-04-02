@@ -9,6 +9,6 @@ def initialize(path)
  end
  
  def files
-  Dir
+  Dir.entries
  end
 end
