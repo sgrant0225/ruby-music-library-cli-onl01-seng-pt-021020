@@ -1,3 +1,6 @@
-def initialize(new)
+MusicImporter
+
+def initialize()
   
-end  
+ end
+end
