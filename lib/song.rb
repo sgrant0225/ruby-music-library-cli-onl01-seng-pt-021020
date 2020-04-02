@@ -55,7 +55,7 @@ end
   end 
   
   def self.new_from_filename(file_name)
-    file = file_name.split
+    file = file_name.split("-")
   end
   
 end
