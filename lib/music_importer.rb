@@ -1,3 +1,3 @@
-def initialize
+def initialize(new)
   
 end  
