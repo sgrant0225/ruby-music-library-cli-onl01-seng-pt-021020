@@ -1,4 +1,4 @@
-MusicImporter
+class MusicImporter
 
 def initialize()
   
