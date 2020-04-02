@@ -56,8 +56,7 @@ end
   
   def self.new_from_filename(file_name)
     file = file_name.split("-")[1]
-    file.chomp("")
-    binding.pry
+    file.gsub("", )
   end
   
 end
