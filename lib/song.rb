@@ -55,7 +55,7 @@ end
   end 
   
   def self.new_from_filename(new_song)
-    self.new(new_song)
+    binding.pry
   end
   
 end
